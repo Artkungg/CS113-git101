@@ -1,0 +1,11 @@
+1.การดึงไฟล์จากgitมาทำได้โดยใช้คำสั่ง git clone <git-url> /*ไม่ต้องพิมพ์<>
+2.คำสั่งการสร้าง branch git branch <branch-name> or git branch -n <branch-name> /*ไม่ต้องพิมพ์<>
+3.คำสั่งที่ใช้ในการตีวจสอบว่ามี branch ใดบ้าง git branch ตรวจสอบว่าอยู่ให้ดูที่เครื่องหมาย *
+4.คำสั่งเปลี่ยน branch git checkout <branch-name> /*ไม่ต้องพิมพ์<>
+5.การ merge นำไฟล์ทั้ง 2 branch มารวมกัน ทำได้โดย เปลี่ยนไปยัง branch ปลายทางก่อน โดยใช้คำสั่ง git checkout <branch-name>
+จากนั้นใช้คำสั่ง git merge <branch-name> (ชื่อ branch ที่จะเอาไปรวมกันกับ branch แรก)
+6.การ pull การดึงไฟล์ที่เก็บอยู่คนละที่ ให้มาอยู่ในที่เดียวกัน ใช้คำสั่ง git pull
+7.การ merge แบบมี comflict 
+conflict เกิดจากการแก้ไฟล์ ที่อยู่ต่าง branch กัน  
+วิธีแก้ คือ 1.หากมี editor ทีช่วยจัดการ conflict เช่น atom สามรถเลือกได้ว่าจะใช้ข้อมูลแบบ branch ใด หาก editorไม่มี tool ช่วย ต้องแก้ไขเอง
+  
